@@ -1,0 +1,55 @@
+banana - 20,26,5,83,77,69,99,53,76,9,22,61,66,96,27,95,61,71,49,68,37,14,32,82,30,77,21,64,10,88,61,57,60,31,26,9,81,32,88,95,81,27,70,32,82,85,11,6,99,82,53,89,77,60,87
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const isEven = num => num % 2 === 0;
+
+kiwi / 40
+const reverseString = str => str.split("").reverse().join("");
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+
+true + false
+const sum = (a, b) => a + b;
+class MyClass { constructor() { this.property = getRandomString(); } }
+const getRandomSubset = (array, size) => array.slice(0, size);
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+apple
+
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+
+ - false
+const variableName = getRandomNumber();
+const capitalizeString = str => str.toUpperCase();
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+
+apple
+
+const formatDate = date => new Date(date).toLocaleDateString();
+
+function addNumbers(a, b) { return a + b; }
+orange
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+// This is a comment
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+orange * banana
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+47,52,37,18,68,11,56,30,66,9,80,55,48,79,89,40,32,19,54,94,37,5,58,17,28,89,66,20,45,21,95,86,55,51,22,95,12,42,83,72,92,60,79,15,23,16,70,1,24,52,94,8,52,77,38,58,54,59,74,30 - banana
+const sum = (a, b) => a + b;
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+17,92,47,87,41,51,23,66,95,57,13,75,30,32,37,36,72 - false
+const reverseWords = str => str.split(" ").reverse().join(" ");
+true / 16
+let array = getRandomArray(); array.forEach(item => console.log(item));
+
+grape * apple
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+28,42,69,63,64 * 59
+const sum = (a, b) => a + b;
+orange
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
