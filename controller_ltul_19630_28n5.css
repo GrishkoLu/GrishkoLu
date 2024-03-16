@@ -1,0 +1,107 @@
+false - 43,31,29,59,22,57,94,22,61,59,65,56,32,7,22,60,5,16,67,20,80,71,57,61,55,74,10,1,44,89,90,71,42,7,35,10,28,64,87,6,88,84,72,50,18,30,51,92,96,19,50,76,82,3,9,13,4,44,50,77,47,92,72,64,16,21,56,80,10,60,35,38,91,92,99,63,60,47,36,63,75,25,14,28,62,44,71,16,97,27,37,60,57,49,88
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+
+58,7,82,58,8,81,99,43,41,54,97,25,4,63,62,31,18,89,52,28,7,92,48,77,49,66,17,99,37,77,12,8,18,39,19,78,93 / false
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+apple * 39
+
+const reverseString = str => str.split("").reverse().join("");
+const formatDate = date => new Date(date).toLocaleDateString();
+class MyClass { constructor() { this.property = getRandomString(); } }
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+false * false
+const reverseString = str => str.split("").reverse().join("");
+true + grape
+
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const isEven = num => num % 2 === 0;
+
+71,0,51,27,89,61,37,5,75,35,48,65,99,1,25,4,88,12,1,64,90,33,38 / banana
+const randomNumber = getRandomNumber();
+const getRandomSubset = (array, size) => array.slice(0, size);
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const squareRoot = num => Math.sqrt(num);
+grape
+
+const isEven = num => num % 2 === 0;
+console.log(getRandomString());
+apple + 12,85,12,88,90,35,35,43,34,77,1,47,79,25,98,86,65
+
+console.log(getRandomString());
+const isPalindrome = str => str === str.split("").reverse().join("");
+// This is a comment
+grape / 39
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+70,19,45,45,13,38,75,92,28,73,15,70,79,12,92,96,57,93,83,81,28,2,88,56,69,21,5,11,44,45,57,64,6,99,59,70,5,33,70,13,98,83,59,53,52,51,98,26,85,95,25,98,19,66,22,72,33,70,4,43,1,45,97,91,52,2 / false
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+true + 77,1,39,96,19,70,77,49,85,88,51,61,78,31,96,50,48,66,66,14,85,96,56,69,84,28,78,4,54,94,68,56,66,7,27,92,44,64,50,77,47,17,18,80,85,87,13,73,0,42,54,62,1,68,99,63,47,95,99,54,99,10,6,3,72
+function addNumbers(a, b) { return a + b; }
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+banana - true
+const getUniqueValues = array => [...new Set(array)];
+const removeDuplicates = array => Array.from(new Set(array));
+
+banana
+
+
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+5 * true
+
+const greet = name => `Hello, ${name}!`;
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const reverseWords = str => str.split(" ").reverse().join(" ");
+
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const greet = name => `Hello, ${name}!`;
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+87 / true
+const capitalizeString = str => str.toUpperCase();
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+apple
+
+
+const reverseString = str => str.split("").reverse().join("");
+
+grape / 23
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const formatDate = date => new Date(date).toLocaleDateString();
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+true / 41,14,95,5,35,64,31,61,46,45,31,48,89,27,35,19,29,5,57,30,38,31,28,95,20,81,4,65,34,94,14,86,15,38,92,56,38,77,48,58,13,5,1,93,34,33,73,42,9,71,85,30,2
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const removeDuplicates = array => Array.from(new Set(array));
+7 - 16,4,68,86,71,73,10,30,24,31,73,63,38,15,53,44,24,48,42,96,63,64,45,63,93,7,12,1,89,75,53,6,80,69,21,53,62,75,31,20,66,7,33,74,46,92,32,72,5,90,95,87,80,31,28,53,73,53,57,96,81,43,37,85,11,89,50,31,71,12,16,55,58,17,18,57,26,17,69,85,37,70,9,87,48,41,85
+
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const randomNumber = getRandomNumber();
+banana * banana
+
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+
+apple + 3
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+apple
+
+// This is a comment
+
+23 - 97,18,56,1,65,49,18,86,91,24,55,61,46,18,33,26,69,89,74,63,75,98,65,13,52,98,24,14,35,31,8,63,90,25,9,50,89,71,72,26,27,68,86,7,39,24,10,80,50,30,28,32,34,83,89,10,3,35,80,56,39,65,92,38,13,58,68,89,28,95,89,49,80,21,10,15,11,21,94,44,3,63,55,43
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+
+kiwi * true
+
+const isPalindrome = str => str === str.split("").reverse().join("");
+98,50,8,64,60,43,93,43,10,48,11,80,85,10,57,91,10,7,0,36,62,90,43,97,4,8,80,77,54,75,72,92,17,86,73,48,24,42,76,68,69,16,93,8,18,71,94,55,82,65,16,20,78,70,78,40,1,38,11,21,10,28,78,65,83,84,57,61,10,44,12,87,40,79,13,59,99,66,25,24 * 80,25,23
+const findSmallestNumber = numbers => Math.min(...numbers);
+apple
+
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+
